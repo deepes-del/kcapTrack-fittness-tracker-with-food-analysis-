@@ -11,7 +11,7 @@ load_dotenv()
 # Configure the Google Gemini API with the API key
 # Note that the API key is set directly in the code for demonstration purposes
 # In production, you should use environment variables: os.getenv("GEMINI_API_KEY")
-genai.configure(api_key="add your api key")
+genai.configure(api_key="add your api key")#be with good amountf tokens to get faster ans accurate result
 
 
 # Function to load Google Gemini Pro Vision API and get response
