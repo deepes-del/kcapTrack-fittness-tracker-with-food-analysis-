@@ -8,7 +8,7 @@ from utils.database import (
     get_daily_food_logs, get_daily_exercise_logs, 
     get_daily_summary, get_health_metrics, log_exercise
 )
-from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie  ## i have used stremlit but not shown visually to the user.
 import requests
 from streamlit_extras.colored_header import colored_header
 
