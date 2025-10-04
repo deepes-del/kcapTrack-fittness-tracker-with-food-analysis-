@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st #can be alterd according to the user needs
 from utils.authentication import check_authentication
 from utils.database import save_user_profile, get_user_profile
 from streamlit_lottie import st_lottie
