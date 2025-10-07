@@ -5,7 +5,7 @@ from psycopg2 import sql
 from datetime import datetime
 
 def get_connection():
-    """Create and return a database connection."""
+    """Create and return a database connection."""##u can make use of any databse which convinent to you
     try:
         conn = psycopg2.connect(
             dbname=os.getenv("PGDATABASE"),
